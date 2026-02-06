@@ -61,7 +61,7 @@ These files must be copied to the `kkdecon_acoustic` directory for the next step
 
 ## 3. Image-Domain LSRTM via PSF Deconvolution
 
-The `kkdecon_acoustic` directory implements **image-domain LSRTM in the wavenumber domain** using **PSF-based deconvolution**.
+The `kkdecon_acoustic` directory simply implements **image-domain LSRTM in the wavenumber domain** using **PSF-based deconvolution**. For more refined results, users are advised to adopt another combined strategies (e.g., via filtering, interpolation, and other post-processing steps).
 
 ### Required Inputs
 
