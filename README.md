@@ -4,3 +4,7 @@
 
 3. The main code implements image-domain LSRTM in the wavenumber domain (i.e., PSF deconvolution), where a local window is adopted for the deconvolution process, and the window size is determined based on the maximum velocity.
 For further details, please refer to our manuscript Image-domain LSRTM of VSP data with point-spread functions, which has been submitted to Computers & Geosciences.
+
+4. To execute the code, compilation via a Makefile is required using the following command:
+    make
+5. It should be noted that the compiler path needs to be modified according to the user's system environment. The deconvolution results and other intermediate files will be written to the output directory.
