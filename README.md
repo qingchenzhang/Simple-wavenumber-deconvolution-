@@ -11,7 +11,7 @@ The workflow consists of three main components:
 ---
 
 ## Directory Structure
-├── forward/ # Forward modeling and scatter-point simulation
+├── forward/ # Forward modeling and scatter-point data simulation
 
 ├── RTM/ # RTM imaging and PSF calculation
 
@@ -19,7 +19,7 @@ The workflow consists of three main components:
 
 ├── input/ # Velocity models and related inputs
 
-├── output/ # Seismic data, RTM images, PSFs, and LSRTM results
+├── output/ # Seismic data, RTM images, PSFs
 
 └── parameter.txt # Control parameters for modeling and migration
 
